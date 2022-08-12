@@ -11,9 +11,11 @@ header, footer {
 
 }
 
+/* Header */
 header h1 {
     font-size: 48px;
     font-weight: 700;
+    margin: 0;
 }
 
 header .logo {
@@ -23,6 +25,7 @@ header .logo {
 .hero-info p, nav a {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px 0;
 }
 
 nav a {
@@ -34,7 +37,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .nav-bar{
@@ -48,6 +51,7 @@ nav ul {
     display: flex;
     padding: 60px 0;
     gap: 30px;
+    align-items: center;
 
 }
 
@@ -65,3 +69,16 @@ nav ul {
     height: auto;  */
 }
 
+/* Content */
+main{
+    text-align: center;
+}
+
+.feat-image{
+    width:150px
+}
+
+.featured{
+    display: flex;
+    justify-content: center;
+}
