@@ -144,3 +144,9 @@ main{
     background-color:#F9FAF8;
     color: #3882f6;
 }
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 30px 150px;
+}
