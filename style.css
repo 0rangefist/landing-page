@@ -7,7 +7,7 @@ body {
 header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 100px;
+    padding: 0 150px;
 
 }
 
@@ -106,4 +106,41 @@ main{
     font-size: 18px;
     font-weight: 700;
     padding-top: 10px;
+}
+
+.action{
+    padding: 50px 150px;
+}
+
+.blue-box{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10vw;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.action-info h3{
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.action-info p{
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.blue-box button {
+    border-color: #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    border-style: double;
+    width: 15vw;
+    border-radius: 5px;
+}
+
+.blue-box button:hover{
+    background-color:#F9FAF8;
+    color: #3882f6;
 }
