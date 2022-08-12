@@ -97,6 +97,7 @@ main section:first-child{
 .featured{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .testimonial {
