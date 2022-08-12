@@ -77,8 +77,8 @@ nav ul {
 }
 
 .hero-image img{
- /* max-width: 100%;
-    height: auto;  */
+ max-width: 100%;
+    height: auto; 
 }
 
 /* Content */
@@ -109,7 +109,7 @@ main section:first-child{
 }
 
 .testimonial .quote {
-    text-align: justify;
+    text-align: left;
     max-width: 65vw;
     font-size: 36px;
     font-style: italic;
