@@ -86,6 +86,10 @@ main{
     text-align: center;
 }
 
+main section:first-child{
+    padding: 30px 150px 70px 150px;
+}
+
 .feat-image{
     width:150px
 }
