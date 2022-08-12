@@ -106,7 +106,20 @@ main section:first-child {
 }
 
 .feat-image {
-  width: 150px;
+  width: 160px;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.feat-image img {
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.feat-image figcaption{
+    padding: 0 2px;
 }
 
 .featured {
