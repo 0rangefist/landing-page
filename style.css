@@ -49,12 +49,24 @@ nav ul {
 
 .hero{
     display: flex;
-    padding: 60px 0;
+    padding: 100px 0;
     gap: 30px;
     align-items: center;
 
 }
 
+.hero button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: transparent;
+    border-radius: 3px;
+    padding: 5px 30px;
+}
+
+.hero button:hover {
+    background-color: #E5E7EB;
+    color: #3882f6
+}
 .hero-info{
     flex: 1;
 }
